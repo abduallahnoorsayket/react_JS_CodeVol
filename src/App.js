@@ -5,14 +5,34 @@ import { render } from "@testing-library/react";
 import { Greet } from "./components/Greet";
 import Welcome from "./components/Welcome";
 import { Hello } from "./components/Hello";
-
+import Message from "./components/Message";
+import Counter from "./components/Counter";
+import { FunctionClick } from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Greet />
-        <Welcome /> */}
-        <Hello />
+        <FunctionClick />
+        <ClassClick />
+        {/* <Counter /> */}
+        {/* <Message /> */}
+        {/* <Greet name="Morgan" heroName="Spiderman" />
+        <Welcome name="Bruce" heroName="SuperMan" /> */}
+        {/* <Greet name="Bruce" heroName="SuperMan">
+          <p>hello Super man</p>
+        </Greet>
+        <Greet name="diana" heroName="WondaerMan">
+          <button>Action</button>
+        </Greet>
+        
+
+        
+        <Welcome name="diana" heroName="WondaerMan" />
+        <Welcome name="Morgan" heroName="Spiderman" /> */}
+        {/*
+         */}
+        {/* <Hello /> */}
       </div>
     );
   }
