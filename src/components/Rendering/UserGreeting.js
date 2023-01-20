@@ -9,9 +9,43 @@ export default class UserGreeting extends Component {
     };
   }
   render() {
+    return (
+      this.state.isLoggedin && (
+        <div>
+          <h2>wellcome abdullah</h2>
+        </div>
+      )
+    );
+    // ternary operator
+    // return this.state.isLoggedin ? (
+    //   <div>
+    //     <h2>wellcome abdullah</h2>
+    //   </div>
+    // ) : (
+    //   <div>
+    //     <h2>wellcome Guest</h2>
+    //   </div>
+    // );
+    // element variable
     // let message;
     // if (this.state.isLoggedin) {
     //   message = (
+    //     <div>
+    //       <h2>wellcome abdullah</h2>
+    //     </div>
+    //   );
+    // } else {
+    //   message = (
+    //     <div>
+    //       <h2>wellcome Guest</h2>
+    //     </div>
+    //   );
+    // }
+    // return <div>{message}</div>;
+
+    // IF/ ELSE
+    // if (this.state.isLoggedin) {
+    //   return (
     //     <div>
     //       <h2>wellcome abdullah</h2>
     //     </div>
@@ -23,20 +57,6 @@ export default class UserGreeting extends Component {
     //     </div>
     //   );
     // }
-
-    if (this.state.isLoggedin) {
-      return (
-        <div>
-          <h2>wellcome abdullah</h2>
-        </div>
-      );
-    } else {
-      return (
-        <div>
-          <h2>wellcome Guest</h2>
-        </div>
-      );
-    }
     // return (
     //   <div>
     //     <h2>wellcome abdullah</h2>
