@@ -13,12 +13,22 @@ import EventBind from "./components/EventBind";
 import ParentComp from "./components/MethodAsProps/ParentComp";
 import UserGreeting from "./components/Rendering/UserGreeting";
 import { NameList } from "./components/Rendering/NameList";
+import StyleSheet from "./components/Styling/StyleSheet";
+import Inline from "./components/Styling/Inline";
+import "./components/appStyles.css";
+import Style from "./components/appStyles.module.css";
+import Form from "./components/FormHandle/Form";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NameList />
+        <Form />
+        {/* <h1 className="error">Error</h1>
+        <h1 className={Style.success}>Success</h1>
+        <Inline /> */}
+        {/* <StyleSheet primary={true} /> */}
+        {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComp /> */}
         {/* <FunctionClick />
