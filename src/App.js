@@ -21,12 +21,15 @@ import Form from "./components/FormHandle/Form";
 import LifeCycleA from "./components/LifeCycleMet/LifeCycleA";
 import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
+import ParentComponet from "./components/PureComponent/ParentComponet";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Table />
+        <ParentComponet />
+        {/* <PureComp /> */}
+        {/* <Table /> */}
         {/* <FragmentDemo /> */}
         {/* <LifeCycleA /> */}
         {/* <Form /> */}
