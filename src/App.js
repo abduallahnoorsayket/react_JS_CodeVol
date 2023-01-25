@@ -18,12 +18,18 @@ import Inline from "./components/Styling/Inline";
 import "./components/appStyles.css";
 import Style from "./components/appStyles.module.css";
 import Form from "./components/FormHandle/Form";
+import LifeCycleA from "./components/LifeCycleMet/LifeCycleA";
+import FragmentDemo from "./components/Fragments/FragmentDemo";
+import Table from "./components/Fragments/Table";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form />
+        <Table />
+        {/* <FragmentDemo /> */}
+        {/* <LifeCycleA /> */}
+        {/* <Form /> */}
         {/* <h1 className="error">Error</h1>
         <h1 className={Style.success}>Success</h1>
         <Inline /> */}
