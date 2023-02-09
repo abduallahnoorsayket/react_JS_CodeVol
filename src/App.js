@@ -22,12 +22,14 @@ import LifeCycleA from "./components/LifeCycleMet/LifeCycleA";
 import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
 import ParentComponet from "./components/PureComponent/ParentComponet";
+import RefsDemo from "./components/Refs/RefsDemo";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComponet />
+        <RefsDemo />
+        {/* <ParentComponet /> */}
         {/* <PureComp /> */}
         {/* <Table /> */}
         {/* <FragmentDemo /> */}
