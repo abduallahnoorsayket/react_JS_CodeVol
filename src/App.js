@@ -23,12 +23,16 @@ import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
 import ParentComponet from "./components/PureComponent/ParentComponet";
 import RefsDemo from "./components/Refs/RefsDemo";
+import FocusInput from "./components/Refs/FocusInput";
+import FRParentInput from "./components/Refs/FRParentInput";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <RefsDemo />
+        <FRParentInput />
+        {/* <FocusInput /> */}
+        {/* <RefsDemo /> */}
         {/* <ParentComponet /> */}
         {/* <PureComp /> */}
         {/* <Table /> */}
