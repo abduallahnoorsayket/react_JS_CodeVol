@@ -3,6 +3,7 @@ import "./App.css";
 import React, { Component } from "react";
 import { render } from "@testing-library/react";
 import { Greet } from "./components/Greet";
+// import { Greet } from "./components/Greet";
 import Welcome from "./components/Welcome";
 import { Hello } from "./components/Hello";
 import Message from "./components/Message";
@@ -33,7 +34,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ErrorBoundary>
+        {/* <Greet /> */}
+        {/* <ErrorBoundary>
           <Hero heroName="SuperMan" />
         </ErrorBoundary>
         <ErrorBoundary>
@@ -41,7 +43,7 @@ class App extends Component {
         </ErrorBoundary>
         <ErrorBoundary>
           <Hero heroName="Joker" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
         {/* <PortalDemo/> */}
         {/* <FRParentInput /> */}
         {/* <FocusInput /> */}
@@ -57,13 +59,15 @@ class App extends Component {
         <Inline /> */}
         {/* <StyleSheet primary={true} /> */}
         {/* <NameList /> */}
-        {/* <UserGreeting /> */}
+        <UserGreeting />
         {/* <ParentComp /> */}
         {/* <FunctionClick />
-        <ClassClick /> */}
+         */}
         {/* <EventBind /> */}
         {/* <Counter /> */}
         {/* <Message /> */}
+        {/* <FunctionClick />
+        <ClassClick /> */}
         {/* <Greet name="Morgan" heroName="Spiderman" />
         <Welcome name="Bruce" heroName="SuperMan" /> */}
         {/* <Greet name="Bruce" heroName="SuperMan">
@@ -71,7 +75,8 @@ class App extends Component {
         </Greet>
         <Greet name="diana" heroName="WondaerMan">
           <button>Action</button>
-        </Greet>
+        </Greet> */}
+        {/* 
         
 
         

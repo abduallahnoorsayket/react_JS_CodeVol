@@ -5,7 +5,7 @@ export default class UserGreeting extends Component {
     super(props);
 
     this.state = {
-      isLoggedin: true,
+      isLoggedin: false,
     };
   }
   render() {

@@ -8,11 +8,14 @@ export default class ParentComp extends Component {
     this.state = {
       parentName: "Parent",
     };
-    this.greetParent = this.greetParent.bind(this);
+    // this.greetParent = this.greetParent.bind(this);
   }
-  greetParent(childParam) {
+  // greetParent(childParam) {
+  //   alert(`Hello ${this.state.parentName} form ${childParam}`);
+  // }
+  greetParent = (childParam) => {
     alert(`Hello ${this.state.parentName} form ${childParam}`);
-  }
+  };
 
   render() {
     return (

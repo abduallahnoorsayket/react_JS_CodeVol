@@ -20,18 +20,18 @@ export const NameList = () => {
       id: 3,
       name: "Morgan",
       age: 35,
-      skill: "Vue",
+      skill: "Angular",
     },
   ];
-  //   let personlist = persons.map((person) => (
-  //     <Person key={person.id} person={person} />
-  //   ));
-  //   return <div>{personlist}</div>;
-
-  let namelist = names.map((name, index) => (
-    <h2 key={index}>
-      {index} : {name}
-    </h2>
+  let personlist = persons.map((person) => (
+    <Person key={person.id} person={person} />
   ));
-  return <div>{namelist}</div>;
+  return <div>{personlist}</div>;
+
+  // let namelist = names.map((name, index) => (
+  //   <h2 key={index}>
+  //     {index} : {name}
+  //   </h2>
+  // ));
+  // return <div>{namelist}</div>;
 };

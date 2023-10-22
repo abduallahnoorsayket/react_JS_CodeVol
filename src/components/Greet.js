@@ -1,5 +1,9 @@
 import React from "react";
 
+// export default function Greet() {
+//   return <div>Greet</div>;
+// }
+
 export const Greet = (props) => {
   const { name, heroName } = props;
   return (
@@ -10,7 +14,7 @@ export const Greet = (props) => {
       <h1>
         Hello {name} Gretting Component a.k.a {heroName}
       </h1>
-      {/* {props.children} */}
+      {props.children}
     </div>
   );
 };
